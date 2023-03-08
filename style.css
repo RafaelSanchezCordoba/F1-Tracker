@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #90adc6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: #e9eaec;
+    width: 80vw;
+    max-width: 37.5em;
+    padding: 3em 2.5em;
+    top: 50%;
+    left: 50%;
+    border-radius: 0.62em;
+    box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+}
+
+
+.search-wrapper {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+}
+
+.search-wrapper button {
+    font-size: 1em;
+    background-color: #333652;
+    color: #ffffff;
+    padding: 0.8em 0;
+    border: none;
+    border-radius: 1.5em;
+}
+
+.search-wrapper input {
+    font-size: 1em;
+    padding: 0 0.62em;
+    border: none;
+    border-bottom: 2px solid #fad02c;
+    outline: none;
+    background-color: #e9eaec;
+}
+
+
